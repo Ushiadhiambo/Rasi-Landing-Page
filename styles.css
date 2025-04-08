@@ -113,38 +113,12 @@ p2{
 h5{
     font-size: larger;
 }
-#shipping{
-    width: 80%;
-    background-color:rgb(209, 209, 223) ;
-}
-#quality{
-    width: 80%;
-}
-.techniques{
-    font-size: xx-large;
-}
-.types-of-printing{
-    display: flex;
-    /* justify-content: center; */
-    justify-content: space-around;
-    justify-content: center;
-    gap: 0.5cm;
-}
-#traditional{
-  width: 100%;
-  height: auto;
-
- 
-}
-#advanced{
-    width: 100%;
-    height: auto;
-    height: 74%;
-}
-#four-color{
-    width: 115%;
-    height: auto;
-}
+    .about{
+        border: 1px solid greenyellow;
+        background-color:greenyellow;
+        display: flex;
+        justify-content: center;
+    }
 h6{
     font-size: larger;
 }
@@ -335,13 +309,36 @@ h9{
 h8{
     font-size: large;
 }
+@media screen and (max-width:500px){
+    .about{
+       background-color: brown;
+        display: flex;
+        justify-content: center;
 
-    
-@media screen and (max-width: 750){
- body{
-    overflow-x: scroll;
- }   
+    }  
+    .contact-info{
+        position: absolute;
+        border: 1px solid whitesmoke;
+        background-color: whitesmoke;
+        padding: 7%;
+        margin-top: 5%;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        left: 7%;
+        margin-top: 100%;
+       
+    }
 }
+   
+
+
+
+
+
+ 
+
     
 
 
