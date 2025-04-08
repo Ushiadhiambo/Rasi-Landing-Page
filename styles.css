@@ -1,0 +1,358 @@
+body{
+    
+    width: 100%;
+    overflow-x: hidden;
+}
+.about{
+    border: 1px solid greenyellow;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4cm;
+    margin-left: 30%;
+    
+}
+
+.container{
+    background-image: url(Images/Throw-Pillows.webp);
+    background-size: cover;
+   height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+.container-info{
+   font-size: 300%; 
+   color: white;
+}
+ 
+.heading{
+    justify-content: center;
+    display: flex;
+}
+.heading-info{
+    justify-content: center;
+    display: flex;
+}
+.contact-button{
+    border: 1px solid;
+    background-color: white;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    height: 50px;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.more-info{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    justify-content: center;
+    display: flex;
+    font-size: 250%;
+}
+.modern-sophistication{
+    display: flex;
+    justify-content: center;
+    gap: 15cm;
+   
+}
+#sofa{
+    width: 200%;
+   
+}
+h4{
+    font-size: 250%;
+}
+.know-more{
+    border: 1px solid;
+    background-color:greenyellow;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    height: 50px;
+    margin-left: 20%;
+  
+    
+}
+.contact{
+    border: 1px solid;
+    background-color: white;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    height: 50px;
+   
+}
+
+p1{
+    color: greenyellow;
+    font-size: 150%;
+}
+p2{
+    font-size: x-large;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 5cm;
+
+}
+h5{
+    font-size: larger;
+}
+#shipping{
+    width: 80%;
+    background-color:rgb(209, 209, 223) ;
+}
+#quality{
+    width: 80%;
+}
+.techniques{
+    font-size: xx-large;
+}
+.types-of-printing{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    justify-content: center;
+    gap: 0.5cm;
+}
+#traditional{
+  width: 100%;
+  height: auto;
+
+ 
+}
+#advanced{
+    width: 100%;
+    height: auto;
+    height: 74%;
+}
+#four-color{
+    width: 115%;
+    height: auto;
+}
+h6{
+    font-size: larger;
+}
+p3{
+    font-size: large;
+}
+.client{
+    font-size: xx-large;
+}
+.industries{
+    display: flex;
+    justify-content: center;
+    gap: 4cm;
+    margin-left: 25%;
+}
+#aditya{
+    width: 50%;
+    height: auto;
+    
+}
+#arvind{
+    width: 35%;
+   
+}
+#raymond{
+    width: 40%;
+    left: 10%;
+}
+
+.printing-quality{
+    display: flex;
+    justify-content: center;
+    gap: 3.5cm;
+    margin-right: 15%;
+}
+#visual{
+    width: 200%;
+    
+}
+h7{
+    font-size: xx-large;
+}
+p4{
+    font-size: large;
+    
+}
+.quality-info{
+    margin-top: 8%;
+   
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    gap: 3cm;
+}
+#logo1{
+    width: 8%;
+    height: 1%;
+}
+#logo2{
+width: 6%;
+height: 2.8%;
+}
+#logo3{
+    width: 6%;
+    height: 1%;
+}
+#logo4{
+    width: 5%;
+    height: 1%; 
+}
+#logo5{
+    width: 4%;
+    height: 1%;
+}
+#logo6{
+    width: 8%;
+    height: 1%;
+    margin-top: 1%;
+}
+#logo7{
+    width: 10%;
+    height: 1%;
+    margin-top: 0.2%;
+}
+.our-work{
+    font-size: xx-large;
+}
+.work-showcase{
+    display: flex;
+    justify-content: space-around;
+}
+#showcase1{
+    width: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#showcase2{
+    width: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#showcase3{
+    width: 30%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#showcase4{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 15%;
+    
+}
+.main-photo{
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+.reach-out{
+    font-size: xx-large;
+}
+.location{
+    position: relative;
+    justify-content: center;
+    display: flex;
+
+}
+.location img{
+    width: 100%;
+}
+
+.contact-info{
+    position: absolute;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 7%;
+    margin-top: 5%;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    left: 7%;
+    margin-top: 30%;
+   
+}
+.footer{
+
+background-color: rgb(70, 66, 66);
+
+
+
+}
+#footer-image{
+    width: 10%;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top:50px ;
+    margin-bottom: 20px;
+
+    
+}
+.info ul{
+    list-style: none;
+    /* line-height: 1cm; */
+}
+.footer-container{
+justify-content: center;
+display: flex;
+margin-left: 20%;
+gap: 2cm;
+color:whitesmoke;
+margin-top: -10%;
+}
+h9{
+    font-size: large;
+}
+h8{
+    font-size: large;
+}
+
+    
+@media screen and (max-width: 750){
+ body{
+    overflow-x: scroll;
+ }   
+}
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
